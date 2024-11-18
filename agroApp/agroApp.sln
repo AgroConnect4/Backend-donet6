@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.Domain", "agroApp.Domain\agroApp.Domain.csproj", "{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.API", "agroApp.API\agroApp.API.csproj", "{85AA80DB-97E5-41C7-9C73-672BF5A97B30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.Aplication", "agroApp.Aplication\agroApp.Aplication.csproj", "{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.Infra.Data", "agroApp.Infra.Data\agroApp.Infra.Data.csproj", "{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.Infra.Ioc", "agroApp.Infra.Ioc\agroApp.Infra.Ioc.csproj", "{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agroApp.Domain.Test", "agroApp.Domain.Test\agroApp.Domain.Test.csproj", "{3965BF54-45ED-4419-81D1-8E47888D8134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6295D7FA-4DBC-4218-AA2B-0E4DB3CE0219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85AA80DB-97E5-41C7-9C73-672BF5A97B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85AA80DB-97E5-41C7-9C73-672BF5A97B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85AA80DB-97E5-41C7-9C73-672BF5A97B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85AA80DB-97E5-41C7-9C73-672BF5A97B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49324C4F-6E5B-4EA4-B561-B45AAFC2BA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C647AA-E191-4E56-9755-4C8AC66EE2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CE3BB5-FC24-448E-80A5-58A8CF5B8703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3965BF54-45ED-4419-81D1-8E47888D8134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3965BF54-45ED-4419-81D1-8E47888D8134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3965BF54-45ED-4419-81D1-8E47888D8134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3965BF54-45ED-4419-81D1-8E47888D8134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06B0FEAC-074F-4095-AA1F-CCB1110702C0}
+	EndGlobalSection
+EndGlobal
